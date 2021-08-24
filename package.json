@@ -1,31 +1,23 @@
 {
-  "name": "food-festival",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "webpack": "webpack --watch",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mtpullin/food-festival.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mtpullin/food-festival/issues"
-  },
-  "homepage": "https://github.com/mtpullin/food-festival#readme",
-  "devDependencies": {
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.9.3",
-    "bootstrap": "^5.1.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
-  }
+    "name": "module-18-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "assets/js/script.js",
+    "scripts": {
+        "webpack": "webpack --watch",
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.0"
+    }
 }
